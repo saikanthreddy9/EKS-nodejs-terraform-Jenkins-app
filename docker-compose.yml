@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  express-api:
+    image: express-api:latest
+    build: .
+    ports:
+      - "80:3000"
+    
